@@ -1,0 +1,10 @@
+<html>
+<body>
+    <h1>Employee List</h1>
+    <ul>
+        {% for e in employees %}
+            <li>{{ e.name }} - {{e.position}} - {{e.joined_on}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
